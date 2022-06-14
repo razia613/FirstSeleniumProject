@@ -16,7 +16,7 @@ static WebDriver driver=null;
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://selectorshub.com/xpath-practice-page/\"");
+		driver.get("https://selectorshub.com/xpath-practice-page");
 		
 		//For Single CheckBox---> CheckBox is Preceding sibling Of Joe.Root 
 		//Syntax Is for preceding sibling ---> //a[text()='Joe.Root']/parent::td/preceding-sibling::td/input
