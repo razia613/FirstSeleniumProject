@@ -22,6 +22,7 @@ public class cricbuzzexample2 {
 		str_list = getBowlerInfo("mustafizur");
 		
 		System.out.println("bowlername :"+str_list);  
+		System.out.println(str_list);
 	}
 public static List<String> getBowlerInfo(String bowlername)
 {
